@@ -3,7 +3,7 @@
 require "date"
 
 class Festivoscolombia
-  def self.generar_festivos(anio)
+  def self.generar_festivos(anio = DateTime.now.year)
     fecha_pascua = calculo_pascua(anio)
     festivos = Array.new
     festivos = [DateTime.new(anio, 01, 01).strftime("%Y-%m-%d"), # año nuevo
@@ -33,7 +33,7 @@ class Festivoscolombia
 
   end
 
-  def self.calculo_pascua(anio)
+  def self.calculo_pascua(anio = DateTime.now.year)
     pascua = DateTime.now
     #anio = pascua.year
     a = anio % 19
