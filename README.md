@@ -19,42 +19,45 @@ Ruby
 ```gem install festivoscolombia```
 
 ## Ejecutando las pruebas ⚙️
-
 _Para probar la Gema en la consola de ruby_
 
+   ```gem install festivoscolombia```
+
+
+![alt text](https://github.com/dario1091/Festivos_Colombia/blob/master/images/install.PNG)}
+
+
+   consola de ruby
+   ```irb```
+   
    ```require 'festivoscolombia'```
    
-   ```Festivoscolombia.generar_festivos(2020)```
-### Analice las pruebas 🔩
+ ![alt text](https://github.com/dario1091/Festivos_Colombia/blob/master/images/console%20ruby.PNG)}
 
-_Para el año 2020 la salida debe ser esta_
+   
+   Prueba con año dado
+  
+   ```Festivoscolombia.generar_festivos(1991)```
+   
+  ![alt text](https://github.com/dario1091/Festivos_Colombia/blob/master/images/generate_with_year.PNG)}
+  
+  Prueba sin año 
+  
+  _por default trae los festivos del año en curso en este caso 2020_
+  
+   ```Festivoscolombia.generar_festivos()```
+   
+  ![alt text](https://github.com/dario1091/Festivos_Colombia/blob/master/images/generate_without_year.PNG)}
 
-```
-2020-01-01
-2020-01-06
-2020-03-23
-2020-04-09
-2020-04-10
-2020-05-01
-2020-05-25
-2020-06-15
-2020-06-22
-2020-06-29
-2020-07-20
-2020-08-07
-2020-08-17
-2020-10-12
-2020-11-02
-2020-11-16
-2020-12-08
-2020-12-25
-```
 ## Consultar una fecha
 
 _Para consultar una fecha especifica_
 
 
-```Festivoscolombia.generar_festivos(2020).include?("2020-06-19")```
+```Festivoscolombia.generar_festivos(2020).include?("2020-04-01")```
+
+  ![alt text](https://github.com/dario1091/Festivos_Colombia/blob/master/images/include.PNG)}
+
 
 
 
