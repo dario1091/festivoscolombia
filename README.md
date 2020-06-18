@@ -49,7 +49,7 @@ _Para el año 2020 la salida debe ser esta_
 2020-12-08
 2020-12-25
 ```
-##Consultar una fecha##
+## Consultar una fecha
 
 _Para consultar una fecha especifica_
 
